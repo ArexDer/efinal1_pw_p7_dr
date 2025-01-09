@@ -30,6 +30,7 @@
         <button @click="buscarCandidato">Buscar</button>
 
         <button @click="agregarPersona">Agregar</button>
+
     </div>
 
 
@@ -160,6 +161,7 @@ export default {
 </script>
 
 <style>
+
 .container {
     display: flex;
     justify-content: center;
@@ -194,6 +196,16 @@ export default {
     background: white;
     border: 1px solid green;
 }
+button{
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
 
 
 
